@@ -17,6 +17,10 @@ body{
     background-size: cover;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .container {
     width: 400px;
     max-width: 400px;
@@ -46,9 +50,9 @@ body{
     text-align: center;
 }
 
-.form > *:last-child{
+/* .form > *:last-child{
     margin-top: 0;
-}
+} */
 
 .form__message{
     text-align: center;
@@ -106,6 +110,7 @@ body{
     outline: none;
     cursor: pointer;
     background: var(--color-primary);
+    /* margin-bottom: 10px; */
 }
 
 .form__button:hover {
